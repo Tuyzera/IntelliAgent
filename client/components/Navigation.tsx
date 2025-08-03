@@ -82,8 +82,11 @@ export default function Navigation() {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="block px-3 py-2 text-gray-700 hover:text-corporate-blue-600 transition-colors duration-200 font-medium"
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="block px-3 py-2 text-gray-700 hover:text-corporate-blue-600 transition-colors duration-200 font-medium cursor-pointer"
+                  onClick={(e) => {
+                    handleNavClick(e, link.href);
+                    setIsMobileMenuOpen(false);
+                  }}
                 >
                   {link.label}
                 </a>
