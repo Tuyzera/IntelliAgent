@@ -2,6 +2,8 @@ import { MessageSquare, User, TrendingUp, Link, Zap, Bot, BarChart3, Settings } 
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 export default function Features() {
+  const animationRef = useScrollAnimation();
+
   const mainFeature = {
     title: 'Atendimento ao Cliente Automatizado',
     description: 'Revolucione seu atendimento com IA que compreende e responde clientes 24/7 com precisão humana.',
