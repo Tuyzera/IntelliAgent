@@ -1,11 +1,11 @@
-import { Linkedin, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Linkedin, Instagram, Facebook, Twitter } from "lucide-react";
 
 export default function Footer() {
   const socialLinks = [
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Instagram, href: "#", label: "Instagram" },
+    { icon: Facebook, href: "#", label: "Facebook" },
+    { icon: Twitter, href: "#", label: "Twitter" },
   ];
 
   return (

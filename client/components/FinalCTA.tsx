@@ -1,5 +1,5 @@
-import { Button } from './ui/button';
-import { ArrowRight, Play } from 'lucide-react';
+import { Button } from "./ui/button";
+import { ArrowRight, Play } from "lucide-react";
 
 export default function FinalCTA() {
   return (
@@ -7,7 +7,7 @@ export default function FinalCTA() {
       {/* Background effects */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-corporate-blue-500/20 via-transparent to-transparent" />
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-corporate-blue-600/10 to-transparent" />
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
@@ -17,7 +17,8 @@ export default function FinalCTA() {
                 Transforme Seu Atendimento Agora
               </h2>
               <p className="text-xl lg:text-2xl text-blue-100 leading-relaxed mb-8">
-                Adquira Seu Agente de IA e revolucione a forma como sua empresa atende e vende
+                Adquira Seu Agente de IA e revolucione a forma como sua empresa
+                atende e vende
               </p>
             </div>
 
@@ -27,8 +28,11 @@ export default function FinalCTA() {
                 Comece Agora com 20% de Desconto
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
               </Button>
-              
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 group">
+
+              <Button
+                variant="outline"
+                className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 group"
+              >
                 <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
                 Ver Demonstração
               </Button>
@@ -62,12 +66,12 @@ export default function FinalCTA() {
                 />
               </div>
             </div>
-            
+
             {/* Floating metrics */}
             <div className="absolute -top-4 -right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg animate-float">
               <span className="text-sm font-semibold">97% Sucesso</span>
             </div>
-            
+
             <div className="absolute -bottom-4 -left-4 bg-orange-500 text-white px-4 py-2 rounded-lg shadow-lg animate-float-delayed">
               <span className="text-sm font-semibold">+5000 Clientes</span>
             </div>

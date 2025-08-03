@@ -1,27 +1,30 @@
-import { Star } from 'lucide-react';
+import { Star } from "lucide-react";
 
 export default function Testimonials() {
   const testimonials = [
     {
-      name: 'Maria Oliveira',
-      location: 'Brasil',
+      name: "Maria Oliveira",
+      location: "Brasil",
       rating: 5,
-      text: 'Implementamos o Agente de IA no atendimento ao cliente e a diferença foi imediata! Aumentou nossa produtividade e os clientes estão mais satisfeitos.',
-      avatar: 'https://images.pexels.com/photos/6204232/pexels-photo-6204232.jpeg',
+      text: "Implementamos o Agente de IA no atendimento ao cliente e a diferença foi imediata! Aumentou nossa produtividade e os clientes estão mais satisfeitos.",
+      avatar:
+        "https://images.pexels.com/photos/6204232/pexels-photo-6204232.jpeg",
     },
     {
-      name: 'João Santos',
-      location: 'Brasil',
+      name: "João Santos",
+      location: "Brasil",
       rating: 5,
-      text: 'O agente de IA que usamos para automatizar nossas vendas tem sido essencial. A solução não só aumentou nossas conversões, como também reduziu o tempo de resposta.',
-      avatar: 'https://images.pexels.com/photos/33258804/pexels-photo-33258804.jpeg',
+      text: "O agente de IA que usamos para automatizar nossas vendas tem sido essencial. A solução não só aumentou nossas conversões, como também reduziu o tempo de resposta.",
+      avatar:
+        "https://images.pexels.com/photos/33258804/pexels-photo-33258804.jpeg",
     },
     {
-      name: 'Ana Costa',
-      location: 'Brasil',
+      name: "Ana Costa",
+      location: "Brasil",
       rating: 5,
-      text: 'Excelente ferramenta! A integração com o nosso CRM foi super simples e o suporte 24/7 realmente fez a diferença para nossa equipe.',
-      avatar: 'https://images.pexels.com/photos/7693223/pexels-photo-7693223.jpeg',
+      text: "Excelente ferramenta! A integração com o nosso CRM foi super simples e o suporte 24/7 realmente fez a diferença para nossa equipe.",
+      avatar:
+        "https://images.pexels.com/photos/7693223/pexels-photo-7693223.jpeg",
     },
   ];
 
@@ -33,7 +36,8 @@ export default function Testimonials() {
             O Que Nossos Clientes Dizem
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Histórias reais de empresas que transformaram seus resultados com IntelliAgent
+            Histórias reais de empresas que transformaram seus resultados com
+            IntelliAgent
           </p>
         </div>
 

@@ -1,49 +1,66 @@
-import { MessageSquare, User, TrendingUp, Link, Zap, Bot, BarChart3, Settings } from 'lucide-react';
-import { useScrollAnimation } from '@/hooks/useScrollAnimation';
+import {
+  MessageSquare,
+  User,
+  TrendingUp,
+  Link,
+  Zap,
+  Bot,
+  BarChart3,
+  Settings,
+} from "lucide-react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 export default function Features() {
   const animationRef = useScrollAnimation();
 
   const mainFeature = {
-    title: 'Atendimento ao Cliente Automatizado',
-    description: 'Revolucione seu atendimento com IA que compreende e responde clientes 24/7 com precisão humana.',
+    title: "Atendimento ao Cliente Automatizado",
+    description:
+      "Revolucione seu atendimento com IA que compreende e responde clientes 24/7 com precisão humana.",
     icon: MessageSquare,
   };
 
   const features = [
     {
-      title: 'Assistente Pessoal Inteligente',
-      description: 'IA personalizada que aprende suas preferências e otimiza seu fluxo de trabalho.',
+      title: "Assistente Pessoal Inteligente",
+      description:
+        "IA personalizada que aprende suas preferências e otimiza seu fluxo de trabalho.",
       icon: User,
     },
     {
-      title: 'Vendas Automatizadas e Personalizadas',
-      description: 'Automatize processos de venda com abordagens personalizadas para cada cliente.',
+      title: "Vendas Automatizadas e Personalizadas",
+      description:
+        "Automatize processos de venda com abordagens personalizadas para cada cliente.",
       icon: TrendingUp,
     },
     {
-      title: 'Integração com CRMs e Ferramentas de Vendas',
-      description: 'Conecte facilmente com Salesforce, HubSpot e outras ferramentas existentes.',
+      title: "Integração com CRMs e Ferramentas de Vendas",
+      description:
+        "Conecte facilmente com Salesforce, HubSpot e outras ferramentas existentes.",
       icon: Link,
     },
     {
-      title: 'Respostas Rápidas e Precisas',
-      description: 'Obtenha respostas instantâneas e precisas para todas as consultas dos clientes.',
+      title: "Respostas Rápidas e Precisas",
+      description:
+        "Obtenha respostas instantâneas e precisas para todas as consultas dos clientes.",
       icon: Zap,
     },
     {
-      title: 'Chatbots com IA para Suporte Imediato',
-      description: 'Chatbots inteligentes que resolvem problemas complexos automaticamente.',
+      title: "Chatbots com IA para Suporte Imediato",
+      description:
+        "Chatbots inteligentes que resolvem problemas complexos automaticamente.",
       icon: Bot,
     },
     {
-      title: 'Automação de Processos Comerciais',
-      description: 'Automatize tarefas repetitivas e foque no que realmente importa.',
+      title: "Automação de Processos Comerciais",
+      description:
+        "Automatize tarefas repetitivas e foque no que realmente importa.",
       icon: Settings,
     },
     {
-      title: 'Análise Preditiva de Vendas',
-      description: 'Previsões precisas de vendas baseadas em dados e machine learning.',
+      title: "Análise Preditiva de Vendas",
+      description:
+        "Previsões precisas de vendas baseadas em dados e machine learning.",
       icon: BarChart3,
     },
   ];
