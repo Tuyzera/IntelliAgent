@@ -1,4 +1,5 @@
 import { MessageSquare, User, TrendingUp, Link, Zap, Bot, BarChart3, Settings } from 'lucide-react';
+import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 export default function Features() {
   const mainFeature = {
