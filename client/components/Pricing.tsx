@@ -8,7 +8,8 @@ export default function Pricing() {
       originalPrice: "R$ 99,00",
       promotionalPrice: "R$ 69,00",
       annualPrice: "R$ 828,00",
-      description: "Ideal para pequenas empresas ou empreendedores iniciantes que precisam automatizar apenas algumas tarefas, como o atendimento básico ao cliente ou vendas.",
+      description:
+        "Ideal para pequenas empresas ou empreendedores iniciantes que precisam automatizar apenas algumas tarefas, como o atendimento básico ao cliente ou vendas.",
       features: [
         "1 Agente de IA",
         "Suporte 24/7",
@@ -22,7 +23,8 @@ export default function Pricing() {
       originalPrice: "R$ 299,00",
       promotionalPrice: "R$ 199,00",
       annualPrice: "R$ 2.388,00",
-      description: "Para empresas em crescimento que buscam automação mais robusta e integração com várias ferramentas.",
+      description:
+        "Para empresas em crescimento que buscam automação mais robusta e integração com várias ferramentas.",
       features: [
         "Até 3 Agentes de IA",
         "Suporte prioritário 24/7",
@@ -37,7 +39,8 @@ export default function Pricing() {
       originalPrice: "R$ 799,00",
       promotionalPrice: "R$ 499,00",
       annualPrice: "R$ 5.988,00",
-      description: "Ideal para empresas de médio a grande porte que querem aproveitar ao máximo o potencial da IA e da automação em todas as suas operações.",
+      description:
+        "Ideal para empresas de médio a grande porte que querem aproveitar ao máximo o potencial da IA e da automação em todas as suas operações.",
       features: [
         "Agentes de IA ilimitados",
         "Suporte 24/7 com atendimento exclusivo",
@@ -60,7 +63,8 @@ export default function Pricing() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Oferta por tempo limitado. Garanta o preço promocional nos 3 primeiros meses!
+            Oferta por tempo limitado. Garanta o preço promocional nos 3
+            primeiros meses!
           </p>
         </div>
 
@@ -86,7 +90,7 @@ export default function Pricing() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
                   {plan.name}
                 </h3>
-                
+
                 <div className="mb-4">
                   <div className="flex items-center justify-center gap-2 mb-2">
                     <span className="text-lg text-gray-500 line-through">
@@ -97,7 +101,7 @@ export default function Pricing() {
                     </span>
                     <span className="text-gray-600">/mês</span>
                   </div>
-                  
+
                   <div className="flex items-center justify-center gap-1 text-red-600 text-sm font-semibold">
                     <Clock className="w-4 h-4" />
                     <span>Oferta por tempo limitado!</span>
