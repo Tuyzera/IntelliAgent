@@ -12,7 +12,6 @@ export default function Index() {
     <div className="min-h-screen">
       <Navigation />
       <Hero />
-      <CredibilityLogos />
       <Features />
       <WhyChoose />
       <Testimonials />
