@@ -17,11 +17,17 @@ export default function Navigation() {
 
   const navLinks = [
     { href: '#features', label: 'Funcionalidades' },
-    { href: '#how-it-works', label: 'Como Funciona' },
     { href: '#testimonials', label: 'Depoimentos' },
-    { href: '#pricing', label: 'Preços' },
     { href: '#faq', label: 'Suporte/FAQ' },
   ];
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
