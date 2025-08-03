@@ -48,7 +48,8 @@ export default function Navigation() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-gray-700 hover:text-corporate-blue-600 transition-colors duration-200 font-medium"
+                onClick={(e) => handleNavClick(e, link.href)}
+                className="text-gray-700 hover:text-corporate-blue-600 transition-colors duration-200 font-medium cursor-pointer"
               >
                 {link.label}
               </a>
