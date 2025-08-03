@@ -17,6 +17,7 @@ export default function Navigation() {
 
   const navLinks = [
     { href: "#features", label: "Funcionalidades" },
+    { href: "#pricing", label: "Preços" },
     { href: "#testimonials", label: "Depoimentos" },
     { href: "#faq", label: "Suporte/FAQ" },
   ];
