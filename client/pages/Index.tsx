@@ -1,6 +1,5 @@
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
-import CredibilityLogos from '@/components/CredibilityLogos';
 import Features from '@/components/Features';
 import WhyChoose from '@/components/WhyChoose';
 import Testimonials from '@/components/Testimonials';
