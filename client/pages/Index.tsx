@@ -14,6 +14,7 @@ export default function Index() {
       <Navigation />
       <Hero />
       <Features />
+      <Pricing />
       <WhyChoose />
       <Testimonials />
       <FAQ />
